@@ -11,7 +11,7 @@ export default {
   name: 'app',
   data(){
     return {
-      todos: ['Зарядка', 'Завтрак']
+      todos: ['Зарядка', 'Завтрак', 'подписаться на vk.com/wynyard_memes', 'лайкнуть все мемы на vk.com/wynyard_memes']
     }
   },
   components: {
@@ -26,5 +26,8 @@ export default {
 </script>
 
 <style>
-
+ #app{
+   width: 100vw;
+   margin: 0;
+ }
 </style>
